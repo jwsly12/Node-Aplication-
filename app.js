@@ -18,9 +18,9 @@ const router = require('./routes/index');
 
 const PORT = 5000;
 
-app.use(express.static(path.join(__dirname, 'public')))
-
 app.use('/' , router)
+
+app.use(express.static(path.join(__dirname, 'public')))
 
 app.use((req , res) =>{
   res.status(404).sendFile(path.join(__dirname , 'public', '404.html'))
