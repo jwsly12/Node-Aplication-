@@ -27,6 +27,7 @@ const authRouter = require("./routes/auth");
 const PORT = 5000;
 
 // Configurações do servidor
+app.use(express.json())
 
 app.use("/auth", authRouter);
 
