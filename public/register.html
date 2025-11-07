@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Servidor</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Registro</title>
 </head>
 <body>
-  <h1>Register</h1>
-  <form id='register' action="/register" method="POST">
-    <label for="user">Usuario</label>
-    <input type="text" name="username" id="username">
-    <label for="pass">Senha</label>
-    <input type="password" name="password" id="password">
+  <h1>Registro</h1>
+  <form id="register">
+    <label for="username">Usuário</label>
+    <input type="text" id="username" required>
+
+    <label for="password">Senha</label>
+    <input type="password" id="password" required>
+
     <button type="submit">Registrar</button>
   </form>
+
+  <script src="../client_auth.js"></script>
 </body>
 </html>

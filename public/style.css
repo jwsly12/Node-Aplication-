@@ -133,3 +133,21 @@ section.index-container button:hover {
     background-color: #cc0000;
 }
 
+button#logout {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff1a1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-color 0.2s ease;
+}
+
+button#logout {
+    margin-top: 20px;
+    background-color: #cc0000;
+}
