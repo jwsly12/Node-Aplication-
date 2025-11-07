@@ -4,6 +4,4 @@ This Node.js application implements user authentication using JWT (JSON Web Toke
 
 ## Colaboradores
 
-## Colaboradores
-
-- [![YuryRafa](https://github.com/YuryRafa.png?size=40)](https://github.com/YuryRafa) YuryRafa
+- [![YuryRafa](https://github.com/YuryRafa.png?size=20)](https://github.com/YuryRafa) YuryRafa
